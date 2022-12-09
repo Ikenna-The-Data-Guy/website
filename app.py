@@ -17,14 +17,14 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}<\style>", unsafe_allow_html=True)
 
-local_css(r"C:\Users\USER\Desktop\Website_project\style\style.css")
+local_css(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/style.css")
 
 # LOAD ASSETS
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json")
-img_covid19 = Image.open(r"C:\Users\USER\Desktop\Website_project\Images\Covid.png")
-img_housing = Image.open(r"C:\Users\USER\Desktop\Website_project\Images\housing.jpg")
-img_cyclistic = Image.open(r"C:\Users\USER\Desktop\Website_project\Images\cyclistic_logo.jpg")
-img_developer = Image.open(r"C:\Users\USER\Desktop\Website_project\Images\developer.jpg")
+img_covid19 = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/Covid.png")
+img_housing = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/housing.jpg")
+img_cyclistic = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/Cyclistic.png")
+img_developer = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/developer.jpg")
 
 ## HEADER SECTION
 with st.container():
