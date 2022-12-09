@@ -21,10 +21,10 @@ local_css("style.css")
 
 # LOAD ASSETS
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_iv4dsx3q.json")
-img_covid19 = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/Covid.png")
-img_housing = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/housing.jpg")
-img_cyclistic = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/Cyclistic.png")
-img_developer = Image.open(r"https://github.com/Ikenna-The-Data-Guy/website/blob/main/developer.jpg")
+img_covid19 = Image.open("Covid.png")
+img_housing = Image.open("housing.jpg")
+img_cyclistic = Image.open("Cyclistic.png")
+img_developer = Image.open("developer.jpg")
 
 ## HEADER SECTION
 with st.container():
